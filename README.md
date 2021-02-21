@@ -6,7 +6,7 @@ Vue.js と firebase を使った認証および CRUD の練習として作成し
 
 > ログイン情報\
 > mail：guest@gmail.com\
-> password：guestaccount\
+> password：guestaccount
 
 ## 機能
 
