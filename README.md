@@ -1,12 +1,12 @@
-共有スペースにある個室の使用者台帳アプリです。
+共有スペースにある個室の使用者台帳アプリです。\
 Vue.js と firebase を使った認証および CRUD の練習として作成しました。
 
-[**デモサイト**](https://room-status.netlify.app/)
+[**デモサイト**](https://room-status.netlify.app/)\
 左上のログインボタンから下記の情報を入力して、実際に使ってみることができます。
 
-> ログイン情報
-> mail：guest@gmail.com
-> password：guestaccount
+> ログイン情報\
+> mail：guest@gmail.com\
+> password：guestaccount\
 
 ## 機能
 
