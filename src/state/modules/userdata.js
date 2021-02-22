@@ -8,7 +8,10 @@ export default {
 	actions: {
 		async listenData({ commit }, user) {
 			try {
-				const doc = await db.collection("users").doc(user.uid).get();
+				const doc = await db
+					.collection("users")
+					.doc(user.uid)
+					.get();
 				const accessingUser = doc.data().userName;
 				commit("GET_USER_NAME", accessingUser);
 			} catch (error) {

@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import AppHeader from "@/components/default/AppHeader";
-import AppFooter from "@/components/default/AppFooter";
+import AppHeader from "@/components/layout/AppHeader";
+import AppFooter from "@/components/layout/AppFooter";
 import DisplayArea from "@/components/username-display/DisplayArea";
 import RoomListItem from "@/components/room-list/RoomListItem";
 import loggedOutContent from "@/components/LoggedOutContent";

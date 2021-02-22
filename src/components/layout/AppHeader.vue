@@ -4,7 +4,7 @@
       <v-icon dark medium> mdi-door-open </v-icon>
       <h2 class="font-weight-bold">個室使用状況一覧</h2>
     </div>
-    <login v-if="!userState" />
+    <Login v-if="!userState" />
     <logout v-if="userState" />
     <v-spacer></v-spacer>
     <adminMenu v-if="userState" />
@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import login from "@/components/header-parts/Login";
-import logout from "@/components/header-parts/Logout";
+import Login from "@/components/common/Login";
+import logout from "@/components/common/Logout";
 import adminMenu from "@/components/header-parts/AdminMenu";
 export default {
   name: "AppHeader",
   components: {
-    login,
+    Login,
     logout,
     adminMenu,
   },
